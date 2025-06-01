@@ -74,12 +74,12 @@ document.querySelectorAll('section').forEach(section => {
 
 // gallery image data
 const galleryImages = [
-    { url: 'https://images.unsplash.com/photo-1541339907198-e08756dedf3f', caption: 'University Library', category: 'Campus' },
-    { url: 'https://images.unsplash.com/photo-1523050854058-8df90110c9f1', caption: 'Student Life', category: 'People' },
-    { url: 'https://images.unsplash.com/photo-1562774053-701939374585', caption: 'Campus Garden', category: 'Nature' },
-    { url: 'https://images.unsplash.com/photo-1519389950473-47ba0277781c', caption: 'Study Group', category: 'Study' },
-    { url: 'https://images.unsplash.com/photo-1517486808906-6ca8b3f04846', caption: 'Research Lab', category: 'Academic' },
-    { url: 'https://images.unsplash.com/photo-1524178232363-1fb2b075b655', caption: 'Campus Architecture', category: 'Campus' }
+    { url: 'images/image-11.png', caption: 'Modern Library Interior', category: 'Academic' },
+    { url: 'images/image-12.png', caption: 'Computer Lab Facilities', category: 'Technology' },
+    { url: 'images/image-13.png', caption: 'Rooftop Campus View', category: 'Campus' },
+    { url: 'images/image-14.png', caption: 'Tree-lined Student Walkway', category: 'Campus Life' },
+    { url: 'images/image-15.png', caption: 'East Plaza Entrance', category: 'Campus' },
+    { url: 'images/image-16.png', caption: 'Exhibition Hall', category: 'Events' }
 ];
 
 // initialize gallery when DOM is loaded

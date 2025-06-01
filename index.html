@@ -43,7 +43,6 @@
     <!-- this is hero section -->
     <section class="min-h-screen flex items-center justify-center relative overflow-hidden pt-16">
         <div class="absolute inset-0 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-emerald-50 via-white to-white z-0"></div>
-        <div class="absolute inset-0 bg-[url('path/to/pattern.svg')] opacity-5 z-0"></div>
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
             <div class="text-center" data-aos="fade-up" data-aos-duration="1000">
                 <span class="text-emerald-600 uppercase tracking-wider text-sm font-medium mb-8 block" data-aos="fade-up" data-aos-delay="200">Welcome to</span>
@@ -66,7 +65,6 @@
 
     <!-- this is story section -->
     <section id="story" class="py-32 bg-white relative overflow-hidden">
-        <div class="absolute inset-0 bg-[url('path/to/pattern.svg')] opacity-5"></div>
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
             <div class="max-w-3xl mx-auto text-center mb-20">
                 <span class="text-emerald-600 uppercase tracking-wider text-sm font-medium mb-6 block" data-aos="fade-up">The Story</span>
@@ -102,35 +100,27 @@
 
     <!-- this is team section -->
     <section id="team" class="py-32 bg-white relative overflow-hidden">
-        <div class="absolute inset-0 bg-[url('path/to/pattern.svg')] opacity-5"></div>
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
             <div class="max-w-3xl mx-auto text-center mb-20">
                 <span class="text-emerald-600 uppercase tracking-wider text-sm font-medium mb-6 block" data-aos="fade-up">The Team</span>
                 <h2 class="font-['Playfair_Display'] text-4xl md:text-5xl font-bold mb-8 leading-tight" data-aos="fade-up" data-aos-delay="200">Meet the Creators</h2>
                 <div class="w-24 h-1 bg-emerald-600 mx-auto mb-8" data-aos="fade-up" data-aos-delay="400"></div>
             </div>
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 max-w-4xl mx-auto">
+            <div class="max-w-md mx-auto">
                 <div class="text-center group" data-aos="fade-up" data-aos-delay="200">
-                    <div class="relative mb-8 mx-auto">
-                        <div class="w-48 h-48 rounded-full bg-emerald-100 overflow-hidden relative z-10 transition-transform duration-300 group-hover:scale-105">
-                            <!-- team member photo here -->
+                    <div class="relative mb-5 mx-auto w-24 h-24">
+                        <div class="rounded-full bg-emerald-100 overflow-hidden relative z-10 transition-transform duration-300 group-hover:scale-105 w-full h-full">
+                            <img 
+                                src="images/creator.png" 
+                                alt="Jane Doe" 
+                                class="w-full h-full object-cover"
+                            >
                         </div>
-                        <div class="absolute inset-0 bg-emerald-200 rounded-full transform translate-x-2 translate-y-2"></div>
+                        <div class="absolute inset-0 bg-emerald-200 rounded-full transform translate-x-1 translate-y-1"></div>
                     </div>
                     <h3 class="font-['Playfair_Display'] text-2xl font-semibold mb-2">Jane Doe</h3>
-                    <p class="text-emerald-600 uppercase tracking-wider text-sm font-medium mb-4">Video Creator</p>
-                    <p class="text-gray-600 leading-relaxed max-w-sm mx-auto">Communications student passionate about storytelling through film, focusing on capturing everyday moments of campus life.</p>
-                </div>
-                <div class="text-center group" data-aos="fade-up" data-aos-delay="400">
-                    <div class="relative mb-8 mx-auto">
-                        <div class="w-48 h-48 rounded-full bg-emerald-100 overflow-hidden relative z-10 transition-transform duration-300 group-hover:scale-105">
-                            <!-- team member photo here -->
-                        </div>
-                        <div class="absolute inset-0 bg-emerald-200 rounded-full transform translate-x-2 translate-y-2"></div>
-                    </div>
-                    <h3 class="font-['Playfair_Display'] text-2xl font-semibold mb-2">Jane Doe</h3>
-                    <p class="text-emerald-600 uppercase tracking-wider text-sm font-medium mb-4">Website Designer</p>
-                    <p class="text-gray-600 leading-relaxed max-w-sm mx-auto">Interactive Media student with an interest in web development, creating digital experiences that tell stories.</p>
+                    <p class="text-emerald-600 uppercase tracking-wider text-sm font-medium mb-3">Editor & Web Designer</p>
+                    <p class="text-gray-600 leading-relaxed mx-auto">Interactive Media student creating digital experiences through video editing and web design.</p>
                 </div>
             </div>
         </div>
@@ -138,7 +128,6 @@
 
     <!-- this is watch section embed video -->
     <section id="watch" class="py-32 bg-emerald-50 relative overflow-hidden">
-        <div class="absolute inset-0 bg-[url('path/to/pattern.svg')] opacity-5"></div>
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
             <div class="max-w-5xl mx-auto text-center mb-20">
                 <span class="text-emerald-600 uppercase tracking-wider text-sm font-medium mb-6 block" data-aos="fade-up">The Film</span>
@@ -167,7 +156,6 @@
 
     <!-- this is photo carousel section -->
     <section id="gallery" class="py-32 bg-white relative overflow-hidden">
-        <div class="absolute inset-0 bg-[url('path/to/pattern.svg')] opacity-5"></div>
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
             <div class="max-w-3xl mx-auto text-center mb-20">
                 <span class="text-emerald-600 uppercase tracking-wider text-sm font-medium mb-6 block" data-aos="fade-up">Photo Gallery</span>
@@ -188,7 +176,6 @@
 
     <!-- footer -->
     <footer class="bg-gray-900 text-white py-20 relative overflow-hidden">
-        <div class="absolute inset-0 bg-[url('path/to/pattern.svg')] opacity-5"></div>
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
             <div class="text-center">
                 <h2 class="font-['Playfair_Display'] text-2xl font-semibold mb-8">Campus Serenity</h2>
