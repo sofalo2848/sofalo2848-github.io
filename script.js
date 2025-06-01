@@ -74,12 +74,12 @@ document.querySelectorAll('section').forEach(section => {
 
 // gallery image data
 const galleryImages = [
-    { url: 'images/image-11.png', caption: 'Modern Library Interior', category: 'Academic' },
-    { url: 'images/image-12.png', caption: 'Computer Lab Facilities', category: 'Technology' },
-    { url: 'images/image-13.png', caption: 'Rooftop Campus View', category: 'Campus' },
-    { url: 'images/image-14.png', caption: 'Tree-lined Student Walkway', category: 'Campus Life' },
-    { url: 'images/image-15.png', caption: 'East Plaza Entrance', category: 'Campus' },
-    { url: 'images/image-16.png', caption: 'Exhibition Hall', category: 'Events' }
+    { url: 'media/image-11.png', caption: 'Modern Library Interior', category: 'Academic' },
+    { url: 'media/image-12.png', caption: 'Computer Lab Facilities', category: 'Technology' },
+    { url: 'media/image-13.png', caption: 'Rooftop Campus View', category: 'Campus' },
+    { url: 'media/image-14.png', caption: 'Tree-lined Student Walkway', category: 'Campus Life' },
+    { url: 'media/image-15.png', caption: 'East Plaza Entrance', category: 'Campus' },
+    { url: 'media/image-16.png', caption: 'Exhibition Hall', category: 'Events' }
 ];
 
 // initialize gallery when DOM is loaded
