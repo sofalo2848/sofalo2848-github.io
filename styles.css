@@ -126,7 +126,7 @@ header.shadow-md {
     opacity: 1;
 }
 
-/* Button Hover Effects */
+/* hover effects */
 .hover-button {
     position: relative;
     overflow: hidden;
@@ -153,7 +153,7 @@ header.shadow-md {
     opacity: 1;
 }
 
-/* Team Member Card Effects */
+/* team card effects */
 .team-member {
     transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }

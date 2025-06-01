@@ -3,7 +3,7 @@ const menuButton = document.getElementById('menuButton');
 const mobileMenu = document.getElementById('mobileMenu');
 let isMenuOpen = false;
 
-// Toggle mobile menu with animation
+// mobile menu with animation
 const toggleMenu = () => {
     isMenuOpen = !isMenuOpen;
     mobileMenu.classList.toggle('menu-open');
